@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="scuee_user02@10.6.69.223:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="scuee_user02@10.6.69.223:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/scuee_user02/cyc/NCMAPSS_test/NCMAPSS_test" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

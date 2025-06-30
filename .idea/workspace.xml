@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a28f195-4ebf-4069-b7ba-55a2a8c80c04" name="Changes" comment="Adding a bunch of testing models.">
+      <change afterPath="$PROJECT_DIR$/.idea/cct_NCMAPSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DLinear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/CA_pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/CID_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/CNN_pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/CSC_pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/SA_pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/TC_pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/p2pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/p2p_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/pRNN_sq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/pRNN_variant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/p_CNN_MLP_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/p_CNN_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/poolRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/poolRNN2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/poolRNN3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegRNNs/pool_pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single_model_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fault_mode.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hands_on.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/AutoCorrelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/Autoformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/Conv_Blocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/Crossformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/DUET_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/ETSformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/Embed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/FourierCorrelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/MultiWaveletCorrelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/PRISM_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/PatchTST_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/Pyraformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/RevIN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/SelfAttention_Family.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/StandardNorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/Transformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/main_encode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layers/masking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_data_original.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_data_uncct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_encode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_original.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Autoformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Crossformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ETSformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/FEDformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/FiLM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Informer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Koopa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/MICN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Mamba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/MambaSimple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Nonstationary_Transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/PatchTST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Pyraformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TSMixer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TemporalFusionTransformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TiDE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TimeMixer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TimesNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Transformer_encode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Transformer_mark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/iTransformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/CA_ParallelRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/CA_cov_SegRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/CST_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/Cluster_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/Cluster_RNN_improved.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/DLinear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/DUET_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/FreTS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/IDC_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/LSTM_pTSMIXer_GA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/PRISM_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/ParallelRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/PatchMixer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/PatchTSMixer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SA_CA_SegRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SA_CA_pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SA_SegRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SegRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SegRNN_CNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SegRNN_GA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SegRNN_TSMixer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/SegRNN_variant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/Simple_SegRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/TC_SA_SegRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/TSMixer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/Transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/baseline_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/pRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/Patch_n_aver_100.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/TSMixer_normal+sampling.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/TSMixers_n_sample_100.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/baseline_cheat1+average_100ws_2seg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/baseline_normal+sampling.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/debug_cheat1+average.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/debug_cheat1+average_100ws_4seg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/debug_cheat1+average_50ws.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/debug_normal+sampling.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/debug_normal+seg2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNN_n+p_aver_25cy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNN_n+p_aver_50cy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNN_n_aver_25cy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNN_n_sample_100.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNN_new_cheat1+average_100ws_2seg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNN_new_cheat1+average_100ws_4seg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNN_new_normal+sampling.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNNs_cheat1+average_100ws_2seg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pRNNs_cheat1+average_100ws_4seg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_index.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Stub" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;caiyu12&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/caiyu12/cct_NCMAPSS.git&quot;,
+    &quot;accountId&quot;: &quot;5adb7c13-48f9-49b2-9450-c34c855978cb&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2v88wYtEOmHq1zksvgJTnYzOP7f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Single_model_test.sh.executor": "Run",
+    "Python.linear algebra.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.main2.executor": "Run",
+    "Python.main_encode.executor": "Run",
+    "Python.main_n+t_aver.executor": "Run",
+    "Python.main_n+t_aver_50.executor": "Run",
+    "Python.main_n_sample.executor": "Run",
+    "Python.process.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/warehouse/NCMAPSS_test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "two.files.diff.last.used.file": "E:/warehouse/cct_NCMAPSS/network/SegRNN.py",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\warehouse\NCMAPSS_test\network" />
+      <recent name="E:\warehouse\NCMAPSS_test\SegRNNs" />
+      <recent name="E:\warehouse\NCMAPSS_test" />
+      <recent name="E:\warehouse\cct_NCMAPSS\SegRNNs" />
+      <recent name="E:\warehouse\cct_NCMAPSS\network" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\warehouse\NCMAPSS_test\scripts" />
+      <recent name="E:\warehouse\cct_NCMAPSS\network" />
+      <recent name="E:\warehouse\cct_NCMAPSS\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main_n+t_aver">
+    <configuration name="main_encode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cct_NCMAPSS" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_encode.py" />
+      <option name="PARAMETERS" value="--model iCluster_RNN --dataset_choice 0 --epoch 100 --learning_rate 0.002 --log_file ./results/debug_log.csv --batch_size 1024 --sampling 100 --load_data_mode no_average --num_segments 0 --loadmode normal --device cuda:1 --seg_len 5 --d_model 64 --window_size 50" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_n_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cct_NCMAPSS" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="--model iCluster_RNN --dataset_choice 3 --epoch 100 --learning_rate 0.002 --log_file ./results/debug_log.csv --batch_size 1024 --sampling 100 --load_data_mode no_average --num_segments 0 --loadmode normal --device cuda:1 --seg_len 5 --d_model 64 --window_size 50" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_n+t_aver" type="PythonConfigurationType" factoryName="Python">
+      <module name="cct_NCMAPSS" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="--model PRISM_RNN --dataset_choice 1 --epoch 100 --learning_rate 0.001 --log_file ./results/debug_log.csv --batch_size 32 --sampling 10 --load_data_mode average_in_two --num_segments 2 --loadmode cheat1 --device cuda:2 --seg_len 10 --d_model 256 --window_size 100" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_n+t_aver_50" type="PythonConfigurationType" factoryName="Python">
+      <module name="cct_NCMAPSS" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="--model iCluster_RNN --dataset_choice 1 --epoch 50 --learning_rate 0.001 --log_file ./results/debug_log.csv --batch_size 32 --sampling 10 --load_data_mode average_in_two --num_segments 2 --loadmode cheat1 --device cuda:2 --seg_len 10 --d_model 256 --window_size 50" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_n+t_aver_50" />
+      <item itemvalue="Python.main_n+t_aver" />
+      <item itemvalue="Python.main_encode" />
+      <item itemvalue="Python.main_n_sample" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_n_sample" />
+        <item itemvalue="Python.main_encode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a28f195-4ebf-4069-b7ba-55a2a8c80c04" name="Changes" comment="" />
+      <created>1743515580431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743515580431</updated>
+      <workItem from="1743515581601" duration="1920000" />
+      <workItem from="1743602037194" duration="474000" />
+      <workItem from="1743668146069" duration="7582000" />
+      <workItem from="1743677604817" duration="2064000" />
+      <workItem from="1743695486980" duration="445000" />
+      <workItem from="1743753699904" duration="5830000" />
+      <workItem from="1743759672998" duration="2509000" />
+      <workItem from="1743843144265" duration="2567000" />
+      <workItem from="1743942326121" duration="4557000" />
+      <workItem from="1743957307383" duration="2651000" />
+      <workItem from="1744008447778" duration="2874000" />
+      <workItem from="1744034170728" duration="3243000" />
+      <workItem from="1744038369234" duration="1458000" />
+      <workItem from="1744077109175" duration="3056000" />
+      <workItem from="1744091515485" duration="2075000" />
+      <workItem from="1744098860022" duration="1400000" />
+      <workItem from="1744128473615" duration="870000" />
+      <workItem from="1744207940273" duration="3355000" />
+      <workItem from="1744339873544" duration="362000" />
+      <workItem from="1744465906598" duration="4029000" />
+      <workItem from="1744546452875" duration="4629000" />
+      <workItem from="1744555413488" duration="1247000" />
+      <workItem from="1744609298536" duration="2712000" />
+      <workItem from="1744632683239" duration="4796000" />
+      <workItem from="1744640002462" duration="3000" />
+      <workItem from="1744684528887" duration="311000" />
+      <workItem from="1744699459238" duration="957000" />
+      <workItem from="1744728756939" duration="1787000" />
+      <workItem from="1744769978801" duration="4767000" />
+      <workItem from="1744783964816" duration="1548000" />
+      <workItem from="1744808711528" duration="2549000" />
+      <workItem from="1744811963447" duration="394000" />
+      <workItem from="1744854816206" duration="318000" />
+      <workItem from="1744944224637" duration="2526000" />
+      <workItem from="1744995232343" duration="619000" />
+      <workItem from="1745062372895" duration="5898000" />
+      <workItem from="1745072507104" duration="926000" />
+      <workItem from="1745375774617" duration="3338000" />
+      <workItem from="1745389016590" duration="3823000" />
+      <workItem from="1745415886093" duration="4771000" />
+      <workItem from="1745474107321" duration="4698000" />
+      <workItem from="1745491148209" duration="6695000" />
+      <workItem from="1745509898066" duration="2098000" />
+      <workItem from="1745663941077" duration="1042000" />
+      <workItem from="1745933444128" duration="2125000" />
+      <workItem from="1745939444025" duration="3558000" />
+      <workItem from="1745979045996" duration="5301000" />
+      <workItem from="1745993932102" duration="5239000" />
+      <workItem from="1746169675230" duration="3187000" />
+      <workItem from="1746184670674" duration="3646000" />
+      <workItem from="1746197745858" duration="3009000" />
+      <workItem from="1746237365808" duration="1670000" />
+      <workItem from="1746256261016" duration="4362000" />
+      <workItem from="1746282580547" duration="5026000" />
+      <workItem from="1746415639114" duration="321000" />
+      <workItem from="1746454043615" duration="2144000" />
+      <workItem from="1746462475157" duration="1188000" />
+      <workItem from="1746530744527" duration="7815000" />
+      <workItem from="1746543723390" duration="5736000" />
+      <workItem from="1746598088479" duration="4880000" />
+      <workItem from="1746613550398" duration="2664000" />
+      <workItem from="1746625971611" duration="5214000" />
+      <workItem from="1746673872913" duration="1710000" />
+      <workItem from="1746685795088" duration="4560000" />
+      <workItem from="1746702201355" duration="1397000" />
+      <workItem from="1746711036651" duration="1597000" />
+      <workItem from="1746715979488" duration="1901000" />
+      <workItem from="1746757256659" duration="4476000" />
+      <workItem from="1746769781584" duration="6003000" />
+      <workItem from="1746794404453" duration="5755000" />
+      <workItem from="1746859203815" duration="3888000" />
+      <workItem from="1746885292167" duration="4119000" />
+      <workItem from="1746932783196" duration="3270000" />
+      <workItem from="1746952234617" duration="4226000" />
+      <workItem from="1746957578291" duration="562000" />
+      <workItem from="1746967461325" duration="2513000" />
+      <workItem from="1747015491068" duration="1919000" />
+      <workItem from="1747050127556" duration="2488000" />
+      <workItem from="1747055767877" duration="202000" />
+      <workItem from="1747055988349" duration="240000" />
+      <workItem from="1747058462760" duration="2408000" />
+      <workItem from="1747061021815" duration="484000" />
+      <workItem from="1747107360858" duration="279000" />
+      <workItem from="1747115520081" duration="2582000" />
+      <workItem from="1747144244612" duration="1089000" />
+      <workItem from="1747147586294" duration="997000" />
+      <workItem from="1747202537605" duration="18000" />
+      <workItem from="1747208446671" duration="3326000" />
+      <workItem from="1747220161352" duration="2220000" />
+      <workItem from="1747231255066" duration="310000" />
+      <workItem from="1747233018920" duration="1121000" />
+      <workItem from="1747274000566" duration="2292000" />
+      <workItem from="1747299106887" duration="1653000" />
+      <workItem from="1747314278167" duration="3316000" />
+      <workItem from="1747367568082" duration="6548000" />
+      <workItem from="1747397403811" duration="3017000" />
+      <workItem from="1747449437271" duration="781000" />
+      <workItem from="1747463920308" duration="1324000" />
+      <workItem from="1747481999425" duration="57000" />
+      <workItem from="1747483820791" duration="1315000" />
+      <workItem from="1747534433193" duration="2611000" />
+      <workItem from="1747540177721" duration="712000" />
+      <workItem from="1747554616222" duration="1578000" />
+      <workItem from="1747566464283" duration="3959000" />
+      <workItem from="1747618746116" duration="4834000" />
+      <workItem from="1747624434557" duration="1587000" />
+      <workItem from="1747636812086" duration="2131000" />
+      <workItem from="1747640277563" duration="3631000" />
+      <workItem from="1747660776064" duration="2363000" />
+      <workItem from="1747708555009" duration="2504000" />
+      <workItem from="1747729790922" duration="1755000" />
+      <workItem from="1747742365225" duration="2129000" />
+      <workItem from="1747796035766" duration="1711000" />
+      <workItem from="1747810103935" duration="1431000" />
+      <workItem from="1747816848905" duration="694000" />
+      <workItem from="1747902738341" duration="66000" />
+      <workItem from="1748008794034" duration="5898000" />
+      <workItem from="1748060635584" duration="5136000" />
+      <workItem from="1748069636605" duration="4763000" />
+      <workItem from="1748139185060" duration="7215000" />
+      <workItem from="1748179955779" duration="222000" />
+      <workItem from="1748180188616" duration="4860000" />
+      <workItem from="1748243125334" duration="1169000" />
+      <workItem from="1748347209588" duration="3172000" />
+      <workItem from="1748399734346" duration="3370000" />
+      <workItem from="1748423207794" duration="1850000" />
+      <workItem from="1748428525599" duration="2532000" />
+      <workItem from="1748484859140" duration="4424000" />
+      <workItem from="1748609599796" duration="13201000" />
+      <workItem from="1748688862408" duration="4103000" />
+      <workItem from="1748700545009" duration="6610000" />
+      <workItem from="1748744627521" duration="752000" />
+      <workItem from="1748757779521" duration="7819000" />
+      <workItem from="1748782368473" duration="330000" />
+      <workItem from="1748830746833" duration="8460000" />
+      <workItem from="1748845023307" duration="4419000" />
+      <workItem from="1748868102168" duration="3568000" />
+      <workItem from="1748917954089" duration="3367000" />
+      <workItem from="1748951727413" duration="6387000" />
+      <workItem from="1749000925064" duration="5987000" />
+      <workItem from="1749007846580" duration="324000" />
+      <workItem from="1749010692035" duration="274000" />
+      <workItem from="1749024777715" duration="1782000" />
+      <workItem from="1749042687783" duration="4324000" />
+      <workItem from="1749119778177" duration="4560000" />
+      <workItem from="1749128305647" duration="302000" />
+      <workItem from="1749189065954" duration="5670000" />
+      <workItem from="1749212516436" duration="6139000" />
+      <workItem from="1749262575034" duration="6122000" />
+      <workItem from="1749283268012" duration="4449000" />
+      <workItem from="1749295789249" duration="3984000" />
+      <workItem from="1749309184282" duration="1969000" />
+      <workItem from="1749314021036" duration="1311000" />
+      <workItem from="1749347175988" duration="5996000" />
+      <workItem from="1749369214899" duration="9579000" />
+      <workItem from="1749382333539" duration="4331000" />
+      <workItem from="1749433692327" duration="5394000" />
+      <workItem from="1749448817672" duration="8775000" />
+      <workItem from="1749467833937" duration="1050000" />
+      <workItem from="1749516520722" duration="15225000" />
+      <workItem from="1749553375767" duration="1221000" />
+      <workItem from="1749558596887" duration="23000" />
+      <workItem from="1749604048101" duration="2211000" />
+      <workItem from="1749646145953" duration="2550000" />
+      <workItem from="1749702983836" duration="8428000" />
+      <workItem from="1749713805746" duration="565000" />
+      <workItem from="1749733964174" duration="2915000" />
+      <workItem from="1749795422318" duration="5805000" />
+      <workItem from="1749817315937" duration="5663000" />
+      <workItem from="1750056370819" duration="3836000" />
+      <workItem from="1750077866245" duration="1451000" />
+      <workItem from="1750125390536" duration="1239000" />
+      <workItem from="1750126751098" duration="2464000" />
+      <workItem from="1750139902555" duration="12039000" />
+      <workItem from="1750156174941" duration="8664000" />
+      <workItem from="1750329391678" duration="5251000" />
+      <workItem from="1750382195403" duration="743000" />
+      <workItem from="1750403382997" duration="1519000" />
+      <workItem from="1750524235292" duration="229000" />
+      <workItem from="1750592406736" duration="4174000" />
+      <workItem from="1750660103562" duration="2751000" />
+      <workItem from="1750842335482" duration="2270000" />
+      <workItem from="1750854450899" duration="5058000" />
+      <workItem from="1750923292612" duration="4665000" />
+      <workItem from="1750947482506" duration="6276000" />
+      <workItem from="1751022832975" duration="6174000" />
+      <workItem from="1751090300195" duration="5812000" />
+      <workItem from="1751166498992" duration="385000" />
+      <workItem from="1751203946819" duration="454000" />
+      <workItem from="1751283308732" duration="302000" />
+    </task>
+    <task id="LOCAL-00001" summary="change parameter d_model to 64 to improve performance.">
+      <option name="closed" value="true" />
+      <created>1744773052297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744773052297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added functions where data is not averaged. Added FC_STGNN(undone)">
+      <option name="closed" value="true" />
+      <created>1744855009700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744855009700</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding a bunch of testing models.">
+      <option name="closed" value="true" />
+      <created>1746711084909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746711084909</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change parameter d_model to 64 to improve performance." />
+    <MESSAGE value="Added functions where data is not averaged. Added FC_STGNN(undone)" />
+    <MESSAGE value="Adding a bunch of testing models." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a bunch of testing models." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_encode.py</url>
+          <line>264</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/baseline_model.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/SegRNN_TSMixer.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/SegRNN_TSMixer.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/PatchRNN.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/method1.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/TC_SA_SegRNN.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/method4.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/CA_cov_SegRNN.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/FilM_SegRNN.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/FilM_SegRNN.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/SA_CA_SegRNN.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/CA_pRNN.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>362</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/TC_pRNN.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/CNN_pRNN.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/CSC_pRNN.py</url>
+          <line>197</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/SA_CA_pRNN.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/SA_CA_pRNN.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/p_CNN_RNN.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/p_CNN_RNN.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/p_CNN_RNN.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/p_CNN_MLP_RNN.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/Series_SegRNN.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/PatchTSMixer.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/SegRNN_CNN.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/LSTM_pTSMIXer_GA.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/SegRNN_variant.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/Simple_SegRNN.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/p2p_RNN.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/CA_ParallelRNN.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/p2p_RNN.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SegRNNs/CID_RNN.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/Cluster_RNN.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/IDC_RNN.py</url>
+          <line>358</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/DUET_RNN.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/layers/DUET_layer.py</url>
+          <line>264</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/Cluster_RNN_improved.py</url>
+          <line>468</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/FreTS.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/Cluster_RNN_improved.py</url>
+          <line>565</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/PRISM_RNN.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.df_train.index" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NCMAPSS_test$main.coverage" NAME="main_n_sample Coverage Results" MODIFIED="1749386017914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCMAPSS_test$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1749377678899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCMAPSS_test$Single_model_test_sh.coverage" NAME="Single_model_test.sh Coverage Results" MODIFIED="1749002989311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cct_NCMAPSS$main_encode.coverage" NAME="main_encode Coverage Results" MODIFIED="1744771808115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cct_NCMAPSS$linear_algebra.coverage" NAME="linear algebra Coverage Results" MODIFIED="1746415781931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cct_NCMAPSS$main.coverage" NAME="main Coverage Results" MODIFIED="1746968956169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCMAPSS_test$main_n_t_aver_50.coverage" NAME="main_n+t_aver_50 Coverage Results" MODIFIED="1751025028828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCMAPSS_test$main_encode.coverage" NAME="main_encode Coverage Results" MODIFIED="1750596251361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCMAPSS_test$main_n_t_aver.coverage" NAME="main_n+t_aver Coverage Results" MODIFIED="1751093092049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCMAPSS_test$main_n_sample.coverage" NAME="main_n_sample Coverage Results" MODIFIED="1751027854892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

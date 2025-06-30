@@ -1,0 +1,14 @@
+model
+DLinear
+CA_cov_SegRNN
+SA_CA_SegRNN
+TA_SA_SegRNN
+SegRNN
+SegRNN_TSMixer
+PatchMixer
+TSMixer
+LSTM_pTSMixer_GA
+simple
+CNN
+hybrid
+
