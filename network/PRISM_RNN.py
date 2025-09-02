@@ -112,11 +112,36 @@ class PRISM_RNN(nn.Module):
         """
         batch_size, _, _ = x_enc.shape
         x_enc = self.FreMLP(x_enc.permute(0, 2, 1)).permute(0, 2, 1)
+
+        # Reshape into batch, seg_num, seg_len, channel (enc_in)
+        #   and permute into batch, seg_len, seg_num, channel (enc_in)
         x_enc = x_enc.reshape(batch_size, self.seg_num_x, self.seg_len, self.enc_in).permute(0, 2, 1, 3)
+
+        # Embed channel into d_model
+        #   and reshape into batch * seg_len, seg_num, d_model
         x = self.SensorsEmbedding(x_enc).reshape(-1, self.seg_num_x, self.d_model)  # bs,n,d
-        x, hn = self.rnn_cd(x) #x:bs,n,d  hn:1,bs,d
+
+        # Traditional batch-first RNN accepts tensors of shape (batch, seq_len, feature_size).
+        # Here, tensors of different relative positions in the segmented sequences are treated as
+        #   different samples, combined in the batch dimension to capture channel-dependent information. Each
+        #   input contains embedded channel features across all segments at the same relative position.
+        # The seq_num is treated as the seq_len for RNN processing.
+        # Example:
+        #   Sequence:
+        #       [t1, t2, t3, t4, t5, t6, t7, t8] (seq_len=8), choosing seg_len=2, we have seg_num=4
+        # -> Segmented sequences:
+        #       [[t1, t2], [t3, t4], [t5, t6], [t7, t8]]
+        # -> Permuted:
+        #       [[t1, t3, t5, t7], [t2, t4, t6, t8]]
+        # -> RNN inputs:
+        #     1: [t1, t3, t5, t7]
+        #     2: [t2, t4, t6, t8]
+        # Look back into their original position in the sequence, you can find the perception field of RNN
+        #   covers the entire sequence, while each input only contains partial information of the sequence. This
+        #   helps alleviate the forgetting problem of RNN on long sequences.
+        x, hn = self.rnn_cd(x) # x:bs,n,d  hn:1,bs,d
         x = self.SensorSqueeze(x).reshape(batch_size, -1, self.enc_in) #b,s,c
-        x = self.norm(x) #b,s,c
+        x = self.norm(x) # b,s,c
         return x
 
     def forecast_ci(self, x_enc):
