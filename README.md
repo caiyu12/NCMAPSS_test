@@ -117,5 +117,4 @@ visualization/
 - The `.pth` file contains the best model weights.
 - The visualization compares predicted and ground-truth RUL.
 
-You can find more information about the program in [hands_on.md](hands_on.md)
 
