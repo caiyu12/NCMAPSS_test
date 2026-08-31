@@ -8,6 +8,8 @@ We processed the data by applying the method mentioned in [Domain Adaptive Remai
 
 The main contribution of this repository is **PRISM-RNN (Prognostic Routing of Independent Strategy Modules)**.
 
+![PRISM_RNN](Methodology.png)
+
 | File | Description |
 |---|---|
 | [`network/PRISM_RNN.py`](network/PRISM_RNN.py) | Main PRISM-RNN architecture |
